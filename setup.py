@@ -14,7 +14,7 @@ If not, see <https://www.gnu.org/licenses/>.
 
 import setuptools
 
-"""patient ct contour setup"""
+""" CTcontour setup """
 
 
 with open('README.md') as f:
@@ -23,7 +23,7 @@ with open('README.md') as f:
 setuptools.setup(
     author="Eric Pace",
     author_email="ericpace@pm.me",
-    name='ct_contour',
+    name='ctcontour',
     license="GNU GPLv3",
     description='Fully automated patient abdomino-pelvic contouring for CT images',
     version='v1.0',
@@ -33,7 +33,7 @@ setuptools.setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'ctc=ct_contour.__main__:contour',
+            'ctc=ctcontour.__main__:contour',
         ]
     },
     python_requires=">=3.8",
