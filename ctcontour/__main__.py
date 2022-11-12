@@ -29,6 +29,7 @@ logging.basicConfig(level=logging.INFO,
 def parse_args_contour():
     message = """
     Fully automated patient abdomino-pelvic contouring for CT images.
+    https://doi.org/10.1016/j.ejmp.2022.10.027.
     """
 
     parser = argparse.ArgumentParser(description=message)

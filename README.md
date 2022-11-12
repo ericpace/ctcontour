@@ -2,8 +2,9 @@
 
 This code implements the processing pipeline described in the article:
 
-CTContour: An open-source Python pipeline for automatic contouring and calculation of mean SSDE along the 
-abdomino-pelvic region for CT images; validation on fifteen systems
+Pace E, Caruana CJ, Bosmans H, Cortis K, D’Anastasi M, Valentino G. 
+CTContour: An open-source Python pipeline for automatic contouring and calculation of mean SSDE along the abdomino-pelvic region for CT images; validation on fifteen systems. 
+Physica Medica 2022;103:190–8. https://doi.org/10.1016/j.ejmp.2022.10.027.
 
 ![Contour](ctc_example.png)
 
