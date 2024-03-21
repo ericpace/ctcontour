@@ -26,7 +26,7 @@ setuptools.setup(
     name='ctcontour',
     license="GNU GPLv3",
     description='Fully automated patient abdomino-pelvic contouring for CT images. https://doi.org/10.1016/j.ejmp.2022.10.027.',
-    version='v1.0',
+    version='v1.1',
     long_description='Fully automated patient abdomino-pelvic contouring for CT images. https://doi.org/10.1016/j.ejmp.2022.10.027.',
     url='https://github.com/ericpace/ct_contour',
     packages=setuptools.find_packages(),
@@ -39,14 +39,14 @@ setuptools.setup(
     python_requires=">=3.8",
     # Enable install requires when publishing on the normal PyPi
     install_requires=[
-        'pydicom>=2.1.2',
-        'numba>=0.52.0',
-        'scipy>=1.4.1',
-        'scikit-image>=0.18.2',
-        'pandas>=1.2.1',
-        'matplotlib>=3.3.4',
-        'seaborn>=0.11.1',
-        'PyPDF2>=1.26.0'
+        'pydicom==2.1.2',
+        'numba==0.52.0',
+        'scipy==1.4.1',
+        'scikit-image==0.18.2',
+        'pandas==1.2.1',
+        'matplotlib==3.3.4',
+        'seaborn==0.11.1',
+        'PyPDF2==1.26.0'
     ],
     classifiers=[
         'Programming Language :: Python'
