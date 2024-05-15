@@ -26,7 +26,7 @@ setuptools.setup(
     name='ctcontour',
     license="GNU GPLv3",
     description='Fully automated patient abdomino-pelvic contouring for CT images. https://doi.org/10.1016/j.ejmp.2022.10.027.',
-    version='v1.1',
+    version='v1.2',
     long_description='Fully automated patient abdomino-pelvic contouring for CT images. https://doi.org/10.1016/j.ejmp.2022.10.027.',
     url='https://github.com/ericpace/ct_contour',
     packages=setuptools.find_packages(),
@@ -46,7 +46,8 @@ setuptools.setup(
         'pandas==1.2.1',
         'matplotlib==3.3.4',
         'seaborn==0.11.1',
-        'PyPDF2==1.26.0'
+        'PyPDF2==1.26.0',
+        'numpy==1.23.4'
     ],
     classifiers=[
         'Programming Language :: Python'
